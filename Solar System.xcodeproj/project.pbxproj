@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		6FD9651B28B3555300D04437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9651A28B3555300D04437 /* AppDelegate.swift */; };
 		6FD9651D28B3555300D04437 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9651C28B3555300D04437 /* SceneDelegate.swift */; };
-		6FD9651F28B3555300D04437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9651E28B3555300D04437 /* ViewController.swift */; };
 		6FD9652228B3555300D04437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD9652028B3555300D04437 /* Main.storyboard */; };
 		6FD9652428B3555500D04437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD9652328B3555500D04437 /* Assets.xcassets */; };
 		6FD9652728B3555500D04437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD9652528B3555500D04437 /* LaunchScreen.storyboard */; };
 		6FD9653228B3555500D04437 /* Solar_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9653128B3555500D04437 /* Solar_SystemTests.swift */; };
 		6FD9653C28B3555500D04437 /* Solar_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9653B28B3555500D04437 /* Solar_SystemUITests.swift */; };
 		6FD9653E28B3555500D04437 /* Solar_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9653D28B3555500D04437 /* Solar_SystemUITestsLaunchTests.swift */; };
+		6FD9654C28B3556B00D04437 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9654A28B3556B00D04437 /* Planet.swift */; };
+		6FD9654D28B3556B00D04437 /* Planet+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9654B28B3556B00D04437 /* Planet+Info.swift */; };
+		6FD9654F28B3557700D04437 /* SceneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD9654E28B3557700D04437 /* SceneVC.swift */; };
+		6FD9655128B3558700D04437 /* scenes.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD9655028B3558700D04437 /* scenes.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		6FD9651728B3555300D04437 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD9651A28B3555300D04437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD9651C28B3555300D04437 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FD9651E28B3555300D04437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FD9652128B3555300D04437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FD9652328B3555500D04437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD9652628B3555500D04437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		6FD9653728B3555500D04437 /* Solar SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD9653B28B3555500D04437 /* Solar_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemUITests.swift; sourceTree = "<group>"; };
 		6FD9653D28B3555500D04437 /* Solar_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FD9654A28B3556B00D04437 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		6FD9654B28B3556B00D04437 /* Planet+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Planet+Info.swift"; sourceTree = "<group>"; };
+		6FD9654E28B3557700D04437 /* SceneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneVC.swift; sourceTree = "<group>"; };
+		6FD9655028B3558700D04437 /* scenes.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = scenes.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				6FD9651A28B3555300D04437 /* AppDelegate.swift */,
 				6FD9651C28B3555300D04437 /* SceneDelegate.swift */,
-				6FD9651E28B3555300D04437 /* ViewController.swift */,
+				6FD9654A28B3556B00D04437 /* Planet.swift */,
+				6FD9654E28B3557700D04437 /* SceneVC.swift */,
+				6FD9654B28B3556B00D04437 /* Planet+Info.swift */,
+				6FD9655028B3558700D04437 /* scenes.scnassets */,
 				6FD9652028B3555300D04437 /* Main.storyboard */,
 				6FD9652328B3555500D04437 /* Assets.xcassets */,
 				6FD9652528B3555500D04437 /* LaunchScreen.storyboard */,
@@ -233,6 +242,7 @@
 			files = (
 				6FD9652728B3555500D04437 /* LaunchScreen.storyboard in Resources */,
 				6FD9652428B3555500D04437 /* Assets.xcassets in Resources */,
+				6FD9655128B3558700D04437 /* scenes.scnassets in Resources */,
 				6FD9652228B3555300D04437 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD9651F28B3555300D04437 /* ViewController.swift in Sources */,
+				6FD9654D28B3556B00D04437 /* Planet+Info.swift in Sources */,
 				6FD9651B28B3555300D04437 /* AppDelegate.swift in Sources */,
 				6FD9651D28B3555300D04437 /* SceneDelegate.swift in Sources */,
+				6FD9654C28B3556B00D04437 /* Planet.swift in Sources */,
+				6FD9654F28B3557700D04437 /* SceneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
